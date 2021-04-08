@@ -1,0 +1,1 @@
+msiexec.exe /X {"C:\Program Files (x86)\TeamViewer\uninstall.exe"} /qn
