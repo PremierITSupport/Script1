@@ -3,4 +3,4 @@ New-PSDrive -Name target -PSProvider FileSystem -Root 'C:\Temp' | Out-Null
 Copy-Item -Path source:\BitTitanDMASetupPremierAg.msi -Destination target:
 Remove-PSDrive source
 Remove-PSDrive target
-Start-Process msiexec.exe /I C:\Temp\BitTitanDMASetupPremierAg.msi
+Start-Process msiexec.exe -Wait '/I C:\Temp\BitTitanDMASetupPremierAg.msi'
