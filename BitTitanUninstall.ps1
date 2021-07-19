@@ -1,0 +1,1 @@
+Start-Process msiexec.exe -Wait '/I C:\Temp\BitTitanDMASetupPremierAg.msi /uninstall'
